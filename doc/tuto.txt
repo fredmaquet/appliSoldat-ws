@@ -1,0 +1,12 @@
+
+-- Creation projet de base
+mvn archetype:generate -DarchetypeGroupId=org.springframework.ws \
+  -DarchetypeArtifactId=spring-ws-archetype \
+  -DarchetypeVersion=2.1.4.RELEASE \
+  -DgroupId=com.soldat.ws \
+  -DartifactId=appliSoldat-ws
+  
+--Import dans eclipse 
+
+-- Changer en Dynamic WebMobule Facet
+-- Si "Dynamic Web Modules requires java1.6 -> java compiler et changer la version de java"
